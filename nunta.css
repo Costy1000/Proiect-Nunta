@@ -1,0 +1,558 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My CSS */
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ }
+    
+.image{
+  font-family: 'Libre Baskerville', serif;
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat 75% center/cover ;
+     text-align: center;
+    display: table;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+
+
+ }
+    
+ .wrapper{
+  display: table-cell;
+  vertical-align: middle;
+  } 
+    
+  .background{
+   background-color: hsla(100,0%,0%,.6);
+   height: 8.75rem;
+   }
+   .background .m{
+    font-size: 1.25rem;
+    color:#d9d9d9;  
+    padding-bottom: 0.625rem;
+    padding-top: 0.3125rem;
+   }
+    .line{
+  width: 12.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 0.01875rem solid hsla(0, 0%, 95%,.3);
+
+} 
+   .zoe{
+   font-size: 3.125rem;
+   color: #d2ba87;
+   font-family:  'Great Vibes', cursive;
+   padding-top: 1.0625rem;
+  } 
+   
+ .background .b {
+   font-size: 1.25rem;
+   color: #b3b3b3;
+   padding-top: 0.625rem;
+
+  }
+    
+  .b::before{
+   content: " ";
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 0.3125rem;
+  width: 1.25rem;
+   height: 0.0625rem;
+  background-color: hsla(0, 0%, 95%, .3);
+ }
+    
+ .b::after{
+   content: " ";
+   display: inline-block;
+   vertical-align: middle;
+   margin-left: 0.3125rem;
+  width: 1.25rem;
+   height: 0.0625rem;
+  background-color: hsla(0, 0%, 95%, .3);
+
+ }
+    @media(min-width: 600px){
+        
+      .background{
+  margin-left: auto;
+  margin-right: auto;
+  width: 39.75rem;
+  background-color: hsla(100,0%,0%,.6);
+  height: 17.75rem;
+ }
+  .background .m{
+    font-family: 'Libre Baskerville', serif;
+     font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    word-spacing: 0.3125rem;
+    color: #b3b3b3;
+    padding-top: 0.793rem;
+    padding-bottom: 0.793rem;
+ }
+  .line{
+     margin-top: 0.230rem;
+   }
+  .background h1{
+   font-size: 7.25rem;
+   padding-top: 3rem;
+   padding-bottom: 1rem
+
+   }
+
+  .background .b{
+   font-size: 1.25rem;
+   color: #999999;
+   padding-bottom: 3.125rem;
+   }              
+}
+    body{
+     background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png)repeat center;
+        text-align: center;
+      width: 100vw;
+
+} 
+                            /*=======================================locations==================================*/
+    .locations{
+    
+     margin-bottom: 2rem;   
+}  
+  .loc{
+  font-family:  'Great Vibes', cursive;
+  font-size: 3.125rem;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+} 
+    
+ .locations h3{
+  font-family: 'Libre Baskerville', serif;   
+  font-size: 1.5625rem;
+  font-weight: 700;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  color: #404040;
+} 
+    
+ .locations img{
+  width: 6.25rem;
+ height: 7.625rem;
+ padding-bottom: 1.25rem;
+ padding-top: 0.3125rem;
+}
+    
+ .locations p{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.625rem;
+ }
+    
+
+    @media (min-width: 800px){
+     .list{
+ float: left;
+ margin-left: 2.5rem;
+ margin-bottom: 1.875rem;
+}
+.list2{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  margin-bottom: 1.875rem;
+
+}
+.list3{
+ float: right;
+ margin-right: 2.5rem;
+
+ }    
+}  
+    @media(max-width: 800px) {  
+ .bb{
+  width: 5rem;
+  height: 0.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-top: 1.25rem;
+   }
+    }
+                           /*==============================================program==================================*/ 
+  .program{  
+      height: 21rem;
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;      
+     
+}
+  .pr{
+  font-family:  'Great Vibes', cursive;
+  font-size: 3.125rem;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+    @media(max-width: 600px){  
+ .programe{
+  
+  height: 12.5rem;
+  float: left;
+  text-align: justify;
+  margin-left: 0.9375rem;
+  }  
+        
+   span{
+        display: block;
+        line-height: 1.6;
+        }      
+    }
+  .pr2{
+  font-family: 'Muli', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 1.530rem;
+
+}
+.g{
+ font-family: 'Muli', sans-serif;
+ padding-bottom: 0.430rem;
+ font-size: 16px;
+ font-weight: bold;
+}
+   
+ @media (min-width: 600px) {  
+     
+   
+.programe{
+   width: 20rem;
+  height: 12.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}  
+ .g{
+ font-family: 'Muli', sans-serif;
+ padding-bottom: 0.430rem;
+ font-size: 16px;
+ font-weight: bold;
+ }    
+}
+        
+                  /*============================================================gifts===================================*/ 
+    
+    
+    .gifts{ 
+        
+      height: auto;  
+    }  
+    
+   .gift{
+    width: 100%;
+    height: auto;
+  font-family:  'Great Vibes', cursive;
+  font-size: 3.125rem;
+  padding-top: 1.875rem;
+  padding-bottom: 1rem;     
+     
+}
+    .gift3{
+        
+     margin-bottom: 1.95rem;   
+        
+}   
+   
+   
+  .gifts img{
+        width: 6.25rem;
+        height: 8.625rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    } 
+    
+   .gift2{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 1.1625rem;
+   padding-top: 1.25rem;
+   padding-bottom: 1.25rem; 
+   margin-left: 1rem;
+   margin-right: 1rem;
+   line-height: 1.6;    
+   color: #404040;      
+
+    } 
+  /*==============================================================================qa====================================*/
+    
+    
+    .qa{
+     width: 100%;  
+     height: auto;
+     font-family: 'Muli', sans-serif;  
+     background: hsla(100,0%,0%,.6);
+     color: #d2ba87;
+     padding-bottom: 1rem;
+     line-height: 1.6;  
+}
+    .questions{
+        width: 100%;
+        
+    }
+    
+    .answers{
+        width:  100%;
+        height: auto; 
+        position: relative;
+        margin-top: 2rem;
+    
+    }
+    .questions h2{
+        font-family:  'Great Vibes', cursive;
+        font-size: 2.75rem;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;     
+       }
+   
+    .qa h3{
+     font-family: 'Libre Baskerville', serif;  
+     font-size: 1.4375rem;
+     padding-bottom: 1.25rem;
+     font-size: 1.55rem; 
+        
+    
+   }
+    
+    .q{
+ font-family: 'Muli', sans-serif;       
+ font-size: 0.9375rem;
+ font-weight: bold;
+ padding-top: 0.625rem;
+ padding-bottom: 0.3125rem;
+}
+.a{
+   
+  font-size: 1.0625rem;
+  font-weight: lighter;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.625rem;
+}
+    
+ .qa a{
+ text-decoration: none;
+ color: #bd806e;
+}
+.qa a:hover{
+  color: #eda087;
+    
+}
+       
+    
+    
+    @media (max-width: 600px) { 
+        
+      .qa h3{
+     font-family: 'Libre Baskerville', serif;  
+     font-size: 1.4375rem;
+     padding-bottom: 1.25rem;
+     font-size: 1.15rem; 
+      white-space: nowrap;
+        
+    
+   }   
+        
+    .qa1{
+      height: auto;  
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 1rem;  
+      text-align: justify;  
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+        
+}
+    
+  .qa2{
+      height: auto;  
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 1rem;  
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      text-align: justify;  
+       
+        
+}
+ .qa3{
+      height: auto;  
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-top: 1rem;  
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      text-align: justify;  
+        
+        
+} 
+    .cc{
+        width: 5rem;
+  height: 0.125rem;
+  background-color:  #d2ba87;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+      }   
+    }
+   @media (min-width: 600px) {
+       .answers{
+         display: flex;
+          
+       }    
+       .title{
+        word-spacing: 0.1rem;
+    
+           
+       }   
+  .qa1{
+  width: 23.75rem;
+  height: auto;   
+  float: left;  
+ text-align: left;
+ padding-bottom: 0.625rem;
+ margin-bottom: 1.25rem;
+ display: inline-block;     
+ margin-right: 2rem;
+ margin-left: 2rem;
+    
+      }
+  .qa2{
+   width: 23.75rem;
+  height: auto;    
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;    
+ text-align: left;
+ padding-bottom: 0.625rem;
+ margin-bottom: 1.25rem;
+     
+           
+   }
+       
+  .qa3{
+   width: 23.75rem;
+  height: auto;    
+  float: right; 
+  margin-right: 3rem;
+  margin-left: 3rem;
+  display: inline-block;    
+ text-align: left;
+ padding-bottom: 0.625rem;
+ margin-bottom: 1.25rem;
+ margin-right: 2rem;
+ margin-left: 2rem;    
+           
+   }     
+    }
+ /*=====================================================contact========================================*/
+    
+    .contact{
+   font-family: 'Libre Baskerville', serif;
+   font-size: 1.200rem;
+   margin-bottom: 2rem;
+   color: #595959;
+}
+  
+
+.contact h2{
+  font-family:  'Great Vibes', cursive;
+  font-size: 3.125rem;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+
+}
+
+.contact p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: 'Libre Baskerville', serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.contact a{
+ color: #bd806e;
+ text-decoration: none;
+}
+.contact a:hover{
+  color:  #eda087;
+}
+
+.small{
+   background: hsla(100,0%,0%,.6);
+   font-family: 'Muli', sans-serif;
+   font-size: 0.940rem;
+   color: white;
+}
+.small p {
+    
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.small a{
+ text-decoration: none;
+ color: #bd806e;
+}
+.small a:hover{
+   color: #eda087;
+}
+
+
